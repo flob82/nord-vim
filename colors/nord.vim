@@ -103,9 +103,9 @@ function! s:hi(group, guifg, guibg, ctermfg, ctermbg, attr, guisp)
   if a:guifg != ""
     let cmd = cmd . " guifg=" . a:guifg
   endif
-  if a:guibg != ""
-    let cmd = cmd . " guibg=" . a:guibg
-  endif
+"  if a:guibg != ""
+"    let cmd = cmd . " guibg=" . a:guibg
+"  endif
   if a:ctermfg != ""
     let cmd = cmd . " ctermfg=" . a:ctermfg
   endif
